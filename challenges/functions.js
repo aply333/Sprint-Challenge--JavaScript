@@ -36,7 +36,7 @@ function greeting(a,b){
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: Variables work down, not up. If I write a variable outside of a function, said function can still access it, but if I write a variable within the function, and then try to access from outside of it then it will not work. I would have to use a return statment or push the results to an array, or atleast have the variable defined earlier on.
 
 
 const external = "I'm outside the function";

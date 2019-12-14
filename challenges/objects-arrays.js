@@ -80,7 +80,7 @@ function getUnivercity (array){
       return array.university;
   })
   let resultSorted = result.sort()
-  universities.push(result)
+  universities.push(resultSorted)
 }
 getUnivercity(graduates);
 
